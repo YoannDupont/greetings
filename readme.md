@@ -32,3 +32,11 @@ pip install --editable .
 Editable installations allow you to modify the source code and see changes immediately, without needing to reinstall the package.
 
 Related: [monkey patch](https://en.wikipedia.org/wiki/Monkey_patch).
+
+# Uninstallation
+
+In `setup.cfg`, you can see the name of the package is `greetings`. You can uninstall the package (classic or editable) with the following command:
+
+```
+pip uninstall greetings
+```
